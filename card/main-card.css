@@ -16,9 +16,9 @@
   --normal-font-size: 1rem;
 } */
 
-*,::before,::after{
+/* *,::before,::after{
   box-sizing: border-box;
-}
+} */
 
 /* body{
   margin: 0;
@@ -29,11 +29,11 @@
   align-items: center;
   justify-content: center;
 } */
-.main {
+/* .main {
     background-color: #fffdff;
     padding: 50px 0;
-}
-.card{
+} */
+.cardPayments{
     background-color:var(--third-color);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     width:300px;
@@ -62,33 +62,33 @@
     font-weight: 500;
     color:#000000;
 }
-.labeltxt{
+.cardnumber{
     font-size: 13px;
     color: rgba(48, 49, 61, 0.8)!important;
     font-weight: 500;
     margin-top:5px;
 }
-.image {
+.marstercard {
     position: relative;
     top: 34px;
     right: -74px;
     margin: 12px;
 }
 
-.image2 {
+.amaricanE {
     position: relative;
     top: 34px;
     right: -42px;
     margin: 12px;
 }
-.image3 {
+.visacard {
     position: relative;
     top: 34px;
     right: -7px;
     margin: 12px;
 }
 
-.image4 {
+.cvc-ard {
     position: relative;
     top: -33px;
     right: -98px;
@@ -97,7 +97,7 @@
 .form-control:focus{
     box-shadow: none;
 }
-.inputtxt{
+.accountnumber{
     color:var(--four-color) !important;
     font-weight: bold;
     font-size: 14px;
@@ -174,7 +174,7 @@ border: 0.4px solid rgba(230, 230, 230, 0.9)!important;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03)!important;
 border-radius: 5px!important;
 }
-.pt-4 {
+#datepicker {
     padding-top: 1.5rem!important;
     margin-bottom: -19px!important;
 }

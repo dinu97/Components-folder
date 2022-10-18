@@ -9,19 +9,19 @@ class card extends HTMLElement {
   
         
     <div class="container mt-4 d-flex justify-content-center main">
-    <div class="card" id="cardId">
+    <div class="cardPayments" id="cardId">
         
         <div class="px-3 pt-3">
             <label for="card number" class="d-flex justify-content-between">
-                <span class="labeltxt">Card number</span>
-                <img src="card/images/download (4).png" width="20" class="image">
-                <img src="card/images/americanexpress.png" width="20" class="image2">
-                <img src="card/images/Visa.png" width="20" class="image3">
+                <span class="cardnumber">Card number</span>
+                <img src="card/images/download (4).png" width="20" class="marstercard">
+                <img src="card/images/americanexpress.png" width="20" class="amaricanE">
+                <img src="card/images/Visa.png" width="20" class="visacard">
 
             </label>
-            <input type="text" name="number" class="form-control inputtxt" placeholder="1234 1234 1234 1234">
+            <input type="text" name="number" class="form-control accountnumber" placeholder="1234 1234 1234 1234">
         </div>
-        <div class="d-flex justify-content-between px-3 pt-4">
+        <div class="d-flex justify-content-between px-3 pt-4" id="datepicker">
              <div>
                  <label for="start" class="exptxt">Expiration</label>
                  <input type="date"  id="start" name="trip-start" class="form-control expiry" placeholder="MM / YY">
@@ -29,7 +29,7 @@ class card extends HTMLElement {
              <div>
                 <label for="cvv" class="cvvtxt">CVC</label>
                 <input type="text" name="number" class="form-control cvv" placeholder="123">
-                <img src="card/images/card.png" width="25" class="image4">
+                <img src="card/images/card.png" width="25" class="cvc-ard">
             </div>
         </div>
         <!-- <div class="px-3 pt-3">
