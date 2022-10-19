@@ -5,7 +5,7 @@ class card extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
 
-        <link href="components/card/main-card.css" rel="stylesheet">
+        <link href="card/main-card.css" rel="stylesheet">
   
         
     <div class="container mt-4 d-flex justify-content-center main">
