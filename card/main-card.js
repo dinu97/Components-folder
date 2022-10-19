@@ -15,9 +15,9 @@ class card extends HTMLElement {
             <label for="card number" class="d-flex justify-content-between">
                 <span class="cardnumber
                 ">Card number</span>
-                <img src="components/card/images/download (4).png" width="20" class="marstercard">
-                <img src="components/card/images/americanexpress.png" width="20" class="amaricanE">
-                <img src="components/card/images/Visa.png" width="20" class="visacard">
+                <img src="card/images/download (4).png" width="20" class="marstercard">
+                <img src="card/images/americanexpress.png" width="20" class="amaricanE">
+                <img src="card/images/Visa.png" width="20" class="visacard">
 
             </label>
             <input type="text" name="number" class="form-control accountnumber" placeholder="1234 1234 1234 1234">
@@ -30,7 +30,7 @@ class card extends HTMLElement {
              <div>
                 <label for="cvv" class="cvvtxt">CVC</label>
                 <input type="text" name="number" class="form-control cvv" placeholder="123">
-                <img src="components/card/images/card.png" width="20" class="cvc-ard">
+                <img src="card/images/card.png" width="20" class="cvc-ard">
             </div>
         </div>
         <!-- <div class="px-3 pt-3">
