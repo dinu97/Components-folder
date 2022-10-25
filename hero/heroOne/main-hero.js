@@ -8,8 +8,8 @@ class Hero extends HTMLElement {
   
         <link href="hero/heroOne/main-hero.css" rel="stylesheet">
   
-        <footer id="footerID" class="bg-<!-- hero section start -->
-        <div class="container hero-one">
+        <!-- hero section start -->
+        <div class="container hero-one" id="heroId">
             <div class="row py-4 py-lg-6">
                 <div class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
                     <div style="z-index:1" class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0">
