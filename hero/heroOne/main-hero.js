@@ -16,7 +16,7 @@ class Hero extends HTMLElement {
                         <img class="img-hero hero-main" src="hero/hero_images/heroOne-image.png " alt="download video">
                     </div><!-- /lc-block -->
                 </div><!-- /col -->
-                <div class="col-lg-7 bg-white px-lg-5 p-4">
+                <div class="col-lg-7 ms-lg-5 text-center text-md-center text-lg-start bg-white px-lg-5 p-4">
                     <div class="col-lg-10 ms-lg-5">
                         <div class="lc-block mb-4">
                             <div contenteditable=true>
@@ -27,10 +27,11 @@ class Hero extends HTMLElement {
                             <div contenteditable=true>
                                 <p class="hero-para"> Prioritise, manage and track your customer feedback with one tool. Collect all data and make smarter decisions in one place.</p>
                             </div>
-                        </div><!-- /lc-block -->
-                        <div class="lc-block-hero" contenteditable=true>
-                            <a class="btn btn-order btn-lg" href="#" role="button">Order Now</a>
-                        </div><!-- /lc-block -->
+                        </div>
+                        <div class="lc-block-hero mb-5">
+                        <a id="btn-order" class="btn btn-primary btn-rounded btn-lg" href="#" role="button"
+                           contenteditable=true>Order Now &nbsp; </a>
+                    </div>
                     </div>
                 </div><!-- /col -->
         
